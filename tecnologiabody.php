@@ -37,10 +37,12 @@
 
 
 			<div class="col-md-12" align="center"><h3 class="blanco"><strong>Algunas marcas que podrás encontrar en nuestra Clínica</strong><br></h3></div>
-
-			<div align="center">
-				<img src="img/marc.jpg" class="img-rounded" alt="" width="450" height="450">
+			<div class="col-md-12">
+				<div align="center">
+					<img src="img/marc.jpg" class="img-rounded" alt="" width="450" height="450">
+				</div>				
 			</div>
+
 
 		</div>
 
@@ -82,10 +84,13 @@
 				</div>
 
 			<div align="center"><h3 class="blanco"><strong>Algunas marcas que podrás encontrar en nuestra Clínica</strong> <br></h3></div>
-
-			<div align="center">
-				<img src="img/marc.jpg" class="img-rounded" alt="" width="300" height="300">
+			
+			<div class="col-md-12">
+				<div align="center">
+					<img src="img/marc.jpg" class="img-rounded" alt="" width="300" height="300">
+				</div>				
 			</div>
+
 
 		</div>
 

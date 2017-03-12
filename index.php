@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Clinica Barros Arana</title>
   <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=1490, maximum-scale=1">
   <!--
 
   <meta name="viewport" content="width=1490, maximum-scale=1">
@@ -39,7 +40,7 @@
             <span class="icon-bar"></span>
           </button>
 
-          <IMG alt="brand" SRC="img/log.png" WIDTH=250 HEIGHT=90 >
+          <IMG alt="brand" SRC="img/log.png" WIDTH=250 HEIGHT=80 >
 
         </div>
 
@@ -354,7 +355,9 @@ if(!empty($buscarboton)){
       </div>
     </div>  
   </footer>
-    
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfKfyqnt9SAUCvJlL3FFhtZICjxNHHqds" </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 </body>
 </html>
 

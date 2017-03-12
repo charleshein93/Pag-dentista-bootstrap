@@ -129,7 +129,7 @@
 		<div style="background-image: url(img/con2.jpg); width: 100%; height: 700px; background-size: cover; clear: both;">
 			<div align="left" >
               <div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
-              <div class="col-md-6"><button class="btn btn-primary btn-lg">Agenda tu Hora</button></div>
+              <div class="col-md-6"><a href="#ventana1" data-toggle="modal"><button class="btn btn-primary btn-lg">Agenda tu Hora</button></a></div>
             </div>
 		</div>
 

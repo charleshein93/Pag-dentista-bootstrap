@@ -15,7 +15,7 @@
 			<p align="justify" class="morado"><strong><em>Ser la clínica odontológica líder en la zona sur del país, con lo más avanzado en tecnología y con especialistas que reúnan los requisitos máximos de profesionalismo y excelencia, formados en universidades de prestigio para satisfacer al máximo las exigencias de nuestros pacientes e ir más allá de sus expectativas, deseando establecer una relación duradera con cada paciente basada en el tratamiento personalizado y orientado al detalle, brindándoles nuestra experiencia a su servicio.</em></strong></p><br><br>
 		</div>
 		
-		<div align="center"><h3 class="morado"><strong>Nuestros Profesionales</strong></h3><br><br></div>
+		<div align="center"><h3 class="blanco"><strong>Nuestros Profesionales</strong></h3><br><br></div>
 
 		<div class="col-md-6" align="center">
 			<h4 class="verde"><strong>Dr. Luis Eduardo Muñoz Sánchez</strong></h4>
@@ -52,7 +52,7 @@
 			<p align="justify" class="morado"><strong><em>Ser la clínica odontológica líder en la zona sur del país, con lo más avanzado en tecnología y con especialistas que reúnan los requisitos máximos de profesionalismo y excelencia, formados en universidades de prestigio para satisfacer al máximo las exigencias de nuestros pacientes e ir más allá de sus expectativas, deseando establecer una relación duradera con cada paciente basada en el tratamiento personalizado y orientado al detalle, brindándoles nuestra experiencia a su servicio.</em></strong></p><br><br>
 		</div>
 		
-		<div align="center"><h3 class="morado"><strong>Nuestros Profesionales</strong></h3></div>
+		<div align="center"><h3 class="blanco"><strong>Nuestros Profesionales</strong></h3></div>
 
 		<div class="col-md-6" align="center">
 			<h4 class="verde"><strong>Dr. Luis Eduardo Muñoz Sánchez</strong></h4>

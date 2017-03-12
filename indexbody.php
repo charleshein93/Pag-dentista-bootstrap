@@ -106,7 +106,7 @@
 
             <div align="right" >
               <div><br><br><br><br><br></div>
-              <div class="col-md-10"><button class="btn btn-primary btn-lg">Agenda tu Hora</button></div>
+              <div class="col-md-10"><a href="#ventana1" data-toggle="modal"><button class="btn btn-primary btn-lg">Agenda tu Hora</button></a></div>
             </div>
 
           </div>
@@ -118,7 +118,7 @@
             </div>
             <div align="right" >
               <div><br><br><br><br><br><br></div>
-              <div class="col-md-10"><button class="btn btn-primary btn-lg">Agenda tu Hora</button></div>
+              <div class="col-md-10"><a href="#ventana1" data-toggle="modal"><button class="btn btn-primary btn-lg">Agenda tu Hora</button></a></div>
             </div>
 
           </div>
@@ -157,10 +157,47 @@
 
 
     <!-- GEOLOCALIZACION DEL CONSULTORIO -->
-            <div>
+<!--             <div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2303.11145707134!2d-73.1277195127506!3d-40.58112517929652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9616367b4bc75635%3A0x88dc58103263c8f2!2sClinica+Dental+Barros+Arana!5e0!3m2!1ses-419!2scl!4v1488848817060" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
+            </div> -->
+          <script type="text/javascript">
+            google.maps.event.addDomListener(window,"load",drawMap);
+            function drawMap(){
+               
+                var mapa;
+                var opcionesMapa={
+                    zoom:15,
+                       
+                         
+                        scrollwheel: false,
+                         
+                    mapTypeId:google.maps.MapTypeId.ROADMAP
+                    
+                }
+                 var image = 'img/dentist.png';
+                mapa = new google.maps.Map(document.getElementById("loc"),opcionesMapa);
+               
+                    var geolocalizacion= new google.maps.LatLng(-40.581149,-73.127359);
+                    var marcador = new google.maps.Marker({
+                      
+                        map:mapa,
+                        draggable:true,
+                        position:geolocalizacion,
+                        visible:true, 
+                        icon: image
+                    });
+                    marcador.setTitle("Clinica dental Barros Arrana");                
+                    mapa.setCenter(geolocalizacion);
+                   
+                
+            }
+          </script>
+          <div id="loc" style="width: 100%; height: 400px;">
             
+          </div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfKfyqnt9SAUCvJlL3FFhtZICjxNHHqds" </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/main.js"></script> 
 
 </div>
 
