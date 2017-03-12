@@ -1,3 +1,4 @@
+<?php include("header.php"); ?>
 <div class="col-md-9">
 	
 	<!-- PARA LAPTOPS -->
@@ -167,3 +168,4 @@
 
 
 </div>
+<?php include("footer.php"); ?>

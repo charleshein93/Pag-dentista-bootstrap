@@ -1,3 +1,4 @@
+<?php include("header.php"); ?>
 <div class="col-md-9">
 	<!-- PARA LAPTOS -->
 
@@ -95,3 +96,4 @@
 		</div>
 
 </div>
+<?php include("footer.php"); ?>
